@@ -3,24 +3,34 @@
   "ProjectMap": {
     "8268a92d-8699-48d5-b99b-170cbbf3e919": {
       "ProjectGuid": "8268a92d-8699-48d5-b99b-170cbbf3e919",
-      "DisplayName": "Lab01",
+      "DisplayName": "ITMO.DevFound.Lab01",
       "ColorIndex": 0
     },
     "e5278907-490e-42fc-a31b-ca1cae882aa3": {
       "ProjectGuid": "e5278907-490e-42fc-a31b-ca1cae882aa3",
-      "DisplayName": "Lab02",
+      "DisplayName": "ITMO.DevFound.Lab02",
       "ColorIndex": 1
     },
     "74263e1a-e06b-4f67-bbf3-4aa061b49a83": {
       "ProjectGuid": "74263e1a-e06b-4f67-bbf3-4aa061b49a83",
-      "DisplayName": "Lab01",
+      "DisplayName": "ITMO.CSharp.Lab01",
       "ColorIndex": 2
     },
     "69dc9616-29fa-4d0c-8882-52c1cabaf669": {
       "ProjectGuid": "69dc9616-29fa-4d0c-8882-52c1cabaf669",
-      "DisplayName": "Lab02",
+      "DisplayName": "ITMO.CSharp.Lab02",
       "ColorIndex": 3
+    },
+    "2235fe5b-5c8f-48a6-8aea-864904dac621": {
+      "ProjectGuid": "2235fe5b-5c8f-48a6-8aea-864904dac621",
+      "DisplayName": "ITMO.CSharp.Lab03",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
     }
   },
-  "NextColorIndex": 4
+  "NextColorIndex": 5
 }

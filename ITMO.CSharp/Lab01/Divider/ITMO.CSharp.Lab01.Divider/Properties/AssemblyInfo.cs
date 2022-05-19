@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Lab01")]
+[assembly: AssemblyTitle("ITMO.CSharp.Lab01.Divider")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Lab01")]
+[assembly: AssemblyProduct("ITMO.CSharp.Lab01.Divider")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("74263e1a-e06b-4f67-bbf3-4aa061b49a83")]
+[assembly: Guid("c4323e6e-3ff7-4bad-b634-f2859f26a603")]
 
 // Version information for an assembly consists of the following four values:
 //

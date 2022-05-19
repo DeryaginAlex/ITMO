@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{74263E1A-E06B-4F67-BBF3-4AA061B49A83}</ProjectGuid>
+    <ProjectGuid>{A1E27FD3-40D9-4405-A01D-D4E71427AB2E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lab01</RootNamespace>
-    <AssemblyName>Lab01</AssemblyName>
+    <RootNamespace>ITMO.CSharp.Lab01.Greetings</RootNamespace>
+    <AssemblyName>ITMO.CSharp.Lab01.Greetings</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
