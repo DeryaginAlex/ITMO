@@ -1,0 +1,8 @@
+D:\Source\GitHub\ITMO\ITMO.CSharp\Lab02\bin\Debug\Lab02.exe.config
+D:\Source\GitHub\ITMO\ITMO.CSharp\Lab02\bin\Debug\Lab02.exe
+D:\Source\GitHub\ITMO\ITMO.CSharp\Lab02\bin\Debug\Lab02.pdb
+D:\Source\GitHub\ITMO\ITMO.CSharp\Lab02\obj\Debug\Lab02.csproj.AssemblyReference.cache
+D:\Source\GitHub\ITMO\ITMO.CSharp\Lab02\obj\Debug\Lab02.csproj.SuggestedBindingRedirects.cache
+D:\Source\GitHub\ITMO\ITMO.CSharp\Lab02\obj\Debug\Lab02.csproj.CoreCompileInputs.cache
+D:\Source\GitHub\ITMO\ITMO.CSharp\Lab02\obj\Debug\Lab02.exe
+D:\Source\GitHub\ITMO\ITMO.CSharp\Lab02\obj\Debug\Lab02.pdb
