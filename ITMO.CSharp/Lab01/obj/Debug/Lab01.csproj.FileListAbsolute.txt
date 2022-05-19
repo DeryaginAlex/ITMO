@@ -1,8 +1,0 @@
-D:\Source\GitHub\ITMO\ITMO.CSharp\Lab01\bin\Debug\Lab01.exe.config
-D:\Source\GitHub\ITMO\ITMO.CSharp\Lab01\bin\Debug\Lab01.exe
-D:\Source\GitHub\ITMO\ITMO.CSharp\Lab01\bin\Debug\Lab01.pdb
-D:\Source\GitHub\ITMO\ITMO.CSharp\Lab01\obj\Debug\Lab01.csproj.AssemblyReference.cache
-D:\Source\GitHub\ITMO\ITMO.CSharp\Lab01\obj\Debug\Lab01.csproj.SuggestedBindingRedirects.cache
-D:\Source\GitHub\ITMO\ITMO.CSharp\Lab01\obj\Debug\Lab01.csproj.CoreCompileInputs.cache
-D:\Source\GitHub\ITMO\ITMO.CSharp\Lab01\obj\Debug\Lab01.exe
-D:\Source\GitHub\ITMO\ITMO.CSharp\Lab01\obj\Debug\Lab01.pdb

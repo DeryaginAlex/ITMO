@@ -1,0 +1,11 @@
+.vs/ITMO/
+.vs/
+*.suo
+*.user
+
+bin/[Dd]ebug/
+bin/[Rr]elease/
+[Bb]in/
+[Oo]bj/
+x64/
+
