@@ -10,6 +10,7 @@ namespace StructType {
         public long accNo;
         public decimal accBal;
         public AccountType accType;
+
     }
     internal class Struct {
         static void Main(string[] args) {
