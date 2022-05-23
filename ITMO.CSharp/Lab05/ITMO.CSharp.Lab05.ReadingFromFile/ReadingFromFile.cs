@@ -4,31 +4,23 @@ using System.IO;
 namespace ITMO.CSharp.Lab05.ReadingFromFile {
     internal class ReadingFromFile {
         static void Main(string[] args) {
-
-            //string fileName = args[0];
-            string fileName = "FileDetails.cs";
-            
+            string fileName = args[0];
+            //string fileName = "FileDetails.cs"; 
             FileStream stream = new FileStream(fileName, FileMode.Open);
             StreamReader reader = new StreamReader(stream);
-            
             int size = (int)stream.Length;
             char[] contents = new char[size];
-
             checked {
                 for(int i = 0 ; i < size ; i++) {
                     contents[i] = (char)reader.Read();
                 }
             }
-
             foreach(char ch in contents) {
                 Console.Write(ch);
             }
-
             stream.Close();
             reader.Close();
-
             Summarize(contents);
-
             Console.ReadKey();
         }
         static void Summarize(char[] contents) {
