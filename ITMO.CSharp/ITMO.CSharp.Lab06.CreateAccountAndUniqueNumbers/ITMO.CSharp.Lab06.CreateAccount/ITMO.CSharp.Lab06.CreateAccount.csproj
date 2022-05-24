@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B6CF1F2D-96BE-422D-8D16-086ED178D012}</ProjectGuid>
+    <ProjectGuid>{ECD718A4-AE24-4182-BF31-30BA3A3C174A}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>ITMO.CSharp.Lab06.CreateAccount</RootNamespace>
     <AssemblyName>ITMO.CSharp.Lab06.CreateAccount</AssemblyName>
@@ -43,9 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AccountType.CS" />
-    <Compile Include="BankAccount.CS" />
-    <Compile Include="CreateAccount.CS" />
+    <Compile Include="AccountType.cs" />
+    <Compile Include="BankAccount.cs" />
+    <Compile Include="CreateAccount.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
