@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{642A9363-C3E0-4EF0-B5F3-F80E10A67866}</ProjectGuid>
+    <ProjectGuid>{C29E8547-547D-4B8E-A5E4-33F54466F9EA}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ITMO.CSharp.Lab03.WhatDay2</RootNamespace>
-    <AssemblyName>ITMO.CSharp.Lab03.WhatDay2</AssemblyName>
+    <RootNamespace>ITMO.CSharp.Lab05.CreateAccount</RootNamespace>
+    <AssemblyName>ITMO.CSharp.Lab05.CreateAccount</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="WhatDay2.cs" />
+    <Compile Include="AccountType.CS" />
+    <Compile Include="BankAccount.CS" />
+    <Compile Include="CreateAccount.CS" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
