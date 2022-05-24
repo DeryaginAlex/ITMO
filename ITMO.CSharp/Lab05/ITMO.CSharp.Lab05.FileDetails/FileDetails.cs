@@ -12,8 +12,8 @@ namespace ITMO.CSharp.Lab05.ReadingFromFile {
             }
             Console.ReadKey();
             */
-            //string fileName = args[0];
-            string fileName = "FileDetails.cs"; 
+            string fileName = args[0];
+            //string fileName = "FileDetails.cs"; 
             FileStream stream = new FileStream(fileName, FileMode.Open);
             StreamReader reader = new StreamReader(stream);
             int size = (int)stream.Length;
