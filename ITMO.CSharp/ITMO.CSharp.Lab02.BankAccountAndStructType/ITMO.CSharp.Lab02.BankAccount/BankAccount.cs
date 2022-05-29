@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BankAccount {
+namespace ITMO.CSharp.Lab02.BankAccount {
     public enum AccountType { Checking, Deposit }
     internal class Enum {
         static void Main(string[] args) {

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9CD1059A-64A8-4242-8320-4B57BF60C508}</ProjectGuid>
+    <ProjectGuid>{11A36988-371D-458D-BC4C-B2B29409E957}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ITMO.CSharp.Lab04.Greater</RootNamespace>
-    <AssemblyName>ITMO.CSharp.Lab04.Greater</AssemblyName>
+    <RootNamespace>ITMO.CSharp.Lab09.ColorTokeniser</RootNamespace>
+    <AssemblyName>ITMO.CSharp.Lab09.ColorTokeniser</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Greater.cs" />
+    <Compile Include="main.cs" />
+    <Compile Include="directive_token.cs" />
+    <Compile Include="html_token_visitor.cs" />
+    <Compile Include="identifier_token.cs" />
+    <Compile Include="Itoken.cs" />
+    <Compile Include="Itoken_visitor.cs" />
+    <Compile Include="keyword_token.cs" />
+    <Compile Include="line_end_token.cs" />
+    <Compile Include="line_start_token.cs" />
+    <Compile Include="multi_line_comment_token.cs" />
+    <Compile Include="null_token_visitor.cs" />
+    <Compile Include="one_line_comment_token.cs" />
+    <Compile Include="other_token.cs" />
+    <Compile Include="position.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="source_file.cs" />
+    <Compile Include="token.cs" />
+    <Compile Include="utility.cs" />
+    <Compile Include="whitespace_token.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

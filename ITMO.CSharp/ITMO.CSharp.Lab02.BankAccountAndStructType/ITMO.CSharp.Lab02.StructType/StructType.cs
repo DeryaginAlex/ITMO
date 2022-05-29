@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace StructType {
+namespace ITMO.CSharp.Lab02.StructType {
     public enum AccountType { Checking, Deposit }
     public struct BankAccount {
         public long accNo;

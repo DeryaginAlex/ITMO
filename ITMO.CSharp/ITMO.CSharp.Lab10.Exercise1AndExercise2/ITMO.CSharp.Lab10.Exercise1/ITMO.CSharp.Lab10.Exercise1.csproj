@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9CD1059A-64A8-4242-8320-4B57BF60C508}</ProjectGuid>
+    <ProjectGuid>{EBC7B42B-8344-4480-8CB3-DA9CA0B2517B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ITMO.CSharp.Lab04.Greater</RootNamespace>
-    <AssemblyName>ITMO.CSharp.Lab04.Greater</AssemblyName>
+    <RootNamespace>ITMO.CSharp.Lab10.Exercise1</RootNamespace>
+    <AssemblyName>ITMO.CSharp.Lab10.Exercise1</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Greater.cs" />
+    <Compile Include="AccountType.cs" />
+    <Compile Include="Bank.cs" />
+    <Compile Include="BankAccount.cs" />
+    <Compile Include="BankTransaction.cs" />
+    <Compile Include="CreateAccount.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
