@@ -57,7 +57,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ITMO.CSharp.Lab09.ColorToke
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSharp.Lab09.ColorTokeniser", "ITMO.CSharp.Lab09.ColorTokeniser\ITMO.CSharp.Lab09.ColorTokeniser.csproj", "{11A36988-371D-458D-BC4C-B2B29409E957}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ITMO.CSharp.Lab09.Exercise1AndExercise2", "ITMO.CSharp.Lab09.Exercise1AndExercise2", "{4479EF75-9D15-46F4-A342-A00770DE6455}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ITMO.CSharp.Lab10.Exercise1AndExercise2", "ITMO.CSharp.Lab10.Exercise1AndExercise2", "{4479EF75-9D15-46F4-A342-A00770DE6455}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSharp.Lab10.Exercise1", "ITMO.CSharp.Lab10.Exercise1AndExercise2\ITMO.CSharp.Lab10.Exercise1\ITMO.CSharp.Lab10.Exercise1.csproj", "{EBC7B42B-8344-4480-8CB3-DA9CA0B2517B}"
 EndProject
