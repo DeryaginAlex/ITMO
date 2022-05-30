@@ -1,42 +1,27 @@
-﻿
-namespace ITMO.CSharp.Lab09.ColorTokeniser
-{
-    internal sealed class Keyword
-    {
-        internal static bool Match(Position begin, Position end)
-        {
+﻿namespace ITMO.CSharp.Lab09.ColorTokeniser {
+    internal sealed class Keyword {
+        internal static bool Match(Position begin, Position end) {
             int length = end - begin;
-            foreach (string keyword in keywords)
-            {
-                if (length == keyword.Length && Utility.Equal(begin, end, keyword))
-                {
+            foreach(string keyword in keywords) {
+                if(length == keyword.Length && Utility.Equal(begin, end, keyword)) {
                     return true;
                 }
             }
             return false;
         }
-
         internal static
-        IKeywordToken MakeToken(Position begin, Position end)
-        {
+        IKeywordToken MakeToken(Position begin, Position end) {
             return new KeywordToken(begin, end);
         }
-
-        private sealed class KeywordToken : Token, IKeywordToken
-        {
+        private sealed class KeywordToken : Token, IKeywordToken {
             internal KeywordToken(Position begin, Position end)
-              : base(begin, end)
-            {
+              : base(begin, end) {
             }
-
-            internal override void Accept(ITokenVisitor visitor)
-            {
+            internal override void Accept(ITokenVisitor visitor) {
                 visitor.Visit(this);
             }
         }
-
         private Keyword() { }
-
         private static readonly string[] keywords = new string[]
         {
             "abstract",

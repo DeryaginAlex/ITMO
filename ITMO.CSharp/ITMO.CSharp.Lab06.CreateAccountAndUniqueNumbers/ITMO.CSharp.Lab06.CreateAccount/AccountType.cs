@@ -1,7 +1,6 @@
-
-enum AccountType 
-{ 
-    Checking, 
-    Deposit 
+namespace ITMO.CSharp.Lab06.CreateAccount {
+    enum AccountType {
+        Checking,
+        Deposit
+    }
 }
-

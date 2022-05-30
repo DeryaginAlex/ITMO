@@ -1,7 +1,6 @@
 ﻿using System;
 namespace ITMO.CSharp.Lab10.Exercise1 {
 	class CreateAccount {
-		// Test Harness
 		static void Main() {
 			Console.WriteLine("Sid's Account");
 			long sidsAccNo = Bank.CreateAccount();
@@ -13,23 +12,18 @@ namespace ITMO.CSharp.Lab10.Exercise1 {
 				Console.WriteLine("Account closed");
 			else
 				Console.WriteLine("Something went wrong closing the account");
-
-			Console.ReadLine(); // To keep the terminal open
-
+			Console.ReadLine();
 		}
-
 		static void TestDeposit(BankAccount acc) {
 			Console.Write("Enter amount to deposit: ");
 			decimal amount = decimal.Parse(Console.ReadLine());
 			acc.Deposit(amount);
 		}
-
 		static void TestWithdraw(BankAccount acc) {
 			Console.Write("Enter amount to withdraw: ");
 			decimal amount = decimal.Parse(Console.ReadLine());
 			acc.Withdraw(amount);
 		}
-
 		static void Write(BankAccount acc) {
 			Console.WriteLine("Account number is {0}", acc.Number());
 			Console.WriteLine("Account balance is {0}", acc.Balance());

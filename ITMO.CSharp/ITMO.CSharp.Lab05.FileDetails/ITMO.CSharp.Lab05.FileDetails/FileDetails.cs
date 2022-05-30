@@ -4,8 +4,7 @@ using System.IO;
 namespace ITMO.CSharp.Lab05.ReadingFromFile {
     internal class FileDetails {
         static void Main(string[] args) {
-            string fileName = args[0];
-            //string fileName = "FileDetails.cs"; 
+            string fileName = args[0]; 
             FileStream stream = new FileStream(fileName, FileMode.Open);
             StreamReader reader = new StreamReader(stream);
             int size = (int)stream.Length;
@@ -40,6 +39,7 @@ namespace ITMO.CSharp.Lab05.ReadingFromFile {
             Console.WriteLine("Total no of vowels : {0}", vowels);
             Console.WriteLine("Total no of consonants: {0}", consonants);
             Console.WriteLine("Total no of lines : {0}", lines);
+            Console.Read();
         }
     }
 }

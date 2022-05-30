@@ -1,8 +1,6 @@
-﻿
+﻿using System;
 namespace ITMO.CSharp.Lab09.ColorTokeniser {
-    using System;
-
-    public class Application {
+    public class ColorTokeniser {
         public static void Main(string[] args) {
             try {
                 InnerMain(args);
@@ -10,11 +8,8 @@ namespace ITMO.CSharp.Lab09.ColorTokeniser {
                 Console.WriteLine(caught);
             }
         }
-
         public static void InnerMain(string[] args) {
             SourceFile source = new SourceFile(args[0]);
-
-            // Add code here...
             HTMLTokenVisitor visitor = new HTMLTokenVisitor();
             source.Accept(visitor);
         }

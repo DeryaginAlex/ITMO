@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ConsoleApp1ITMO.CSharp.Lab08.Constructors {
+﻿namespace ITMO.CSharp.Lab08.Constructors {
     class BankAccount {
         private long accNo;
         private decimal accBal;
@@ -14,14 +8,6 @@ namespace ConsoleApp1ITMO.CSharp.Lab08.Constructors {
             if(accFrom.Withdraw(amount))
                 this.Deposit(amount);
         }
-        //public void Populate(decimal balance)
-        //{
-        //    accNo = BankAccount.NextNumber();
-        //    accBal = balance;
-        //    accType = AccountType.Checking;
-        //}
-        //Add constructors BankAccount(), BankAccount(AccountType aType),
-        //BankAccount(decimal aBal), BankAccount(AccountType aType, decimal aBal),
         public BankAccount() {
             accNo = BankAccount.NextNumber();
             accBal = 0;
@@ -42,7 +28,6 @@ namespace ConsoleApp1ITMO.CSharp.Lab08.Constructors {
             accBal = aBal;
             accType = aType;
         }
-        //End of adding constructors
         public long Number() {
             return accNo;
         }

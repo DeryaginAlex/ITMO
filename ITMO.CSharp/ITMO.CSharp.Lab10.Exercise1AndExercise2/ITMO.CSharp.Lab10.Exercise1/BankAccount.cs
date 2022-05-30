@@ -9,36 +9,27 @@ namespace ITMO.CSharp.Lab10.Exercise1 {
 		private AccountType accType;
 		private Queue tranQueue = new Queue();
 		private bool disposed = false;
-
 		private static long nextNumber = 123;
-
-		// Constructors
 		internal BankAccount() {
 			accNo = NextNumber();
 			accType = AccountType.Checking;
 			accBal = 0;
 		}
-
 		internal BankAccount(AccountType aType) {
 			accNo = NextNumber();
 			accType = aType;
 			accBal = 0;
 		}
-
 		internal BankAccount(decimal aBal) {
 			accNo = NextNumber();
 			accType = AccountType.Checking;
 			accBal = aBal;
 		}
-
 		internal BankAccount(AccountType aType, decimal aBal) {
 			accNo = NextNumber();
 			accType = aType;
 			accBal = aBal;
 		}
-
-		// Dispose Method
-
 		public void Dispose() {
 			if(!disposed) {
 				StreamWriter swFile = File.AppendText("Transactions.Dat");
@@ -54,7 +45,6 @@ namespace ITMO.CSharp.Lab10.Exercise1 {
 				GC.SuppressFinalize(this);
 			}
 		}
-
 		public bool Withdraw(decimal amount) {
 			bool sufficientFunds = accBal >= amount;
 			if(sufficientFunds) {
@@ -64,34 +54,27 @@ namespace ITMO.CSharp.Lab10.Exercise1 {
 			}
 			return sufficientFunds;
 		}
-
 		public decimal Deposit(decimal amount) {
 			accBal += amount;
 			BankTransaction tran = new BankTransaction(amount);
 			tranQueue.Enqueue(tran);
 			return accBal;
 		}
-
 		public Queue Transactions() {
 			return tranQueue;
 		}
-
 		public long Number() {
 			return accNo;
 		}
-
 		public decimal Balance() {
 			return accBal;
 		}
-
 		public string Type() {
 			return accType.ToString();
 		}
-
 		private static long NextNumber() {
 			return nextNumber++;
 		}
-
 		~BankAccount() {
 			Dispose();
 		}
