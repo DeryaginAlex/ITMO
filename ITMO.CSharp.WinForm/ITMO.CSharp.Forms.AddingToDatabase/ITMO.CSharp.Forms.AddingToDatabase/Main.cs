@@ -10,47 +10,58 @@ namespace ITMO.CSharp.Forms.AddingToDatabase {
             InitializeComponent();
         }
 
-        public SqlConnection sqlConnection = null;
-        public SqlDataAdapter adapter = null;
-        public DataTable table = null;
-        public string ConnectionString = @"Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Reports;Data Source=.";
-        public string select = @"SELECT * FROM Products";
-        public  string insetr = @"INSERT Products VALUES('iPhone 7', 'Apple', 5, 52000)";
+        private SqlConnection _sqlConnection = null;
+        private SqlDataAdapter _adapter = null;
+        private DataTable _table = null;
+        private string _connectionString = @"Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Reports;Data Source=.";
 
         private void Form1_Load(object sender, EventArgs e) {
-            sqlConnection = new SqlConnection(ConnectionString);
-            sqlConnection.Open();
-        }
-
-        private void toolStripLabel1_Click(object sender, EventArgs e) {
-            ExecuteQuery(select);
-        }
-
-        private void toolStripLabel2_Click(object sender, EventArgs e) {
-            string ProductName = toolStripTextBox1.Text;
-            string Manufacturer = toolStripTextBox2.Text;
-            string ProductCount = (toolStripTextBox3.Text);
-            string Price = (toolStripTextBox4.Text);
-
-            if(String.IsNullOrEmpty(ProductName) || String.IsNullOrEmpty(Manufacturer) || String.IsNullOrEmpty(ProductCount) || String.IsNullOrEmpty(Price)) {
-                MessageBox.Show("Нельзя ноль");
-            } else {
-                GetValueForINSERTQuery(ProductName, Manufacturer, Int32.Parse(ProductCount), Int32.Parse(Price));
-                ExecuteQuery(insetr);
-                ExecuteQuery(select);
+            try {
+                _sqlConnection = new SqlConnection(_connectionString);
+                _sqlConnection.Open();
+            } catch(SqlException) {
+                MessageBox.Show("Не удалось подключиться к БД");
             }
         }
 
-        public void ExecuteQuery(string query) {
-            adapter = new SqlDataAdapter(query, sqlConnection);
-            table = new DataTable();
-            table.Clear();
-            adapter.Fill(table);
-            dataGridView1.DataSource = table;
+        private void Form1_FormClosing(Object sender, FormClosingEventArgs e) {
+            _sqlConnection.Close();
+            _adapter.Dispose();
+        }
+
+        private void toolStripButton1_Click(object sender, EventArgs e) {
+            Execute(Query.Select);
+        }
+
+        private void toolStripButton2_Click(object sender, EventArgs e) {
+            string ProductName = toolStripTextBox1.Text;
+            string Manufacturer = toolStripTextBox2.Text;
+            string ProductCount = toolStripTextBox3.Text;
+            string Price = toolStripTextBox4.Text;
+            if(String.IsNullOrEmpty(ProductName) || String.IsNullOrEmpty(Manufacturer) || String.IsNullOrEmpty(ProductCount) || String.IsNullOrEmpty(Price)) {
+                MessageBox.Show("Входные параметры должны быть обязательно заданы");
+            } else {
+                GetValueForINSERTQuery(ProductName, Manufacturer, Int32.Parse(ProductCount), Int32.Parse(Price));
+                Execute(Query.Insetr);
+                Execute(Query.Select);
+            }
+        }
+
+        public void Execute(string query) {
+            try {  
+                using(_adapter = new SqlDataAdapter(query, _sqlConnection)) {
+                    _table = new DataTable();
+                    _table.Clear();
+                    _adapter.Fill(_table);
+                    dataGridView1.DataSource = _table;
+                }
+            } catch(Exception) {
+                MessageBox.Show("Сервер не найден или недоступен");
+            }
         }
 
         public void GetValueForINSERTQuery(string ProductName, string Manufacturer, int ProductCount, int Price) {
-            insetr = @"INSERT Products VALUES('" + ProductName + "', '" + Manufacturer + "', " + ProductCount + ", " + Price + ")";
+            Query.Insetr = @"INSERT Products VALUES('" + ProductName + "', '" + Manufacturer + "', " + ProductCount + ", " + Price + ")";
         }
     }
 }
