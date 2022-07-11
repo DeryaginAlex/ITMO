@@ -29,7 +29,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSharp.Forms.Lab02.Exe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSharp.Forms.Lab02.Exercise02.Lists", "ITMO.CSharp.Forms.Lab02\ITMO.CSharp.Forms.Lab02.Exercise02.Lists\ITMO.CSharp.Forms.Lab02.Exercise02\ITMO.CSharp.Forms.Lab02.Exercise02.Lists.csproj", "{4F718B3B-FFA3-444D-91E3-B8CD8575D88A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSharp.Forms.Lab02.Exercise03.ToolStrip", "ITMO.CSharp.Forms.Lab02\ITMO.CSharp.Forms.Lab02.Exercise03.ToolStrip\ITMO.CSharp.Forms.Lab01.Exercise04\ITMO.CSharp.Forms.Lab02.Exercise03.ToolStrip.csproj", "{A8534C04-CB7D-41C2-87EA-C522263362B9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSharp.Forms.Lab02.Exercise03.ToolStrip", "ITMO.CSharp.Forms.Lab02\ITMO.CSharp.Forms.Lab02.Exercise03.ToolStrip\ITMO.CSharp.Forms.Lab01.Exercise03\ITMO.CSharp.Forms.Lab02.Exercise03.ToolStrip.csproj", "{A8534C04-CB7D-41C2-87EA-C522263362B9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSharp.Forms.Lab02.Exercise04.StatusStrip", "ITMO.CSharp.Forms.Lab02\ITMO.CSharp.Forms.Lab02.Exercise04.StatusStrip\ITMO.CSharp.Forms.Lab01.Exercise04\ITMO.CSharp.Forms.Lab02.Exercise04.StatusStrip.csproj", "{652B1CF6-51F6-4C48-B15F-A70985A7A66A}"
 EndProject
