@@ -9,7 +9,7 @@
 //------------------------------------------------------------------------------
 
 
-namespace WPF_Lab4_UserIn1.Properties
+namespace UserIn1.Properties
 {
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.

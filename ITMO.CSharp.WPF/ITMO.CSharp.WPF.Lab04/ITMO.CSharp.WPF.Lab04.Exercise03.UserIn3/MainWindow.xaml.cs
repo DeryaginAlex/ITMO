@@ -2,7 +2,7 @@
 using System.Windows.Controls;
 using System.Windows.Media;
 
-namespace WPU_lab4_task3_UserIn3 {
+namespace UserIn3 {
     public partial class MainWindow : Window {
         public MainWindow() {
             InitializeComponent();

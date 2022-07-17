@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace WPF_Lab4_UserIn1 {
+namespace UserIn1 {
     public partial class MainWindow : Window {
         public MainWindow() {
             InitializeComponent();

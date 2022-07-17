@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace WPF_Lab4_Task2_UserIn2
+namespace UserIn2
 {
     /// <summary>
     /// Interaction logic for App.xaml

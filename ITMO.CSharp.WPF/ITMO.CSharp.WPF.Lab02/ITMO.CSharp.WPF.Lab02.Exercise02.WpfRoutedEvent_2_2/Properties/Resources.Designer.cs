@@ -9,7 +9,7 @@
 //------------------------------------------------------------------------------
 
 
-namespace Wpf_Lab2_Task2_RoutedEvent_2_2.Properties
+namespace RoutedEvent_2_2.Properties
 {
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.

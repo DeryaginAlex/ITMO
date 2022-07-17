@@ -2,7 +2,7 @@
 using System.Windows.Controls;
 using System.Windows.Media;
 
-namespace WPF_Lab4_Task2_UserIn2 {
+namespace UserIn2 {
     public partial class MainWindow : Window {
         public MainWindow() {
             InitializeComponent();

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows;
 
-namespace Wpf_Lab2_Task2_RoutedEvent_2_2 {
+namespace RoutedEvent_2_2 {
     public partial class MainWindow : Window {
         public MainWindow() {
             InitializeComponent();

@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Wpf_Lab2_Task2_RoutedEvent_2_2
+namespace RoutedEvent_2_2
 {
     /// <summary>
     /// Interaction logic for App.xaml

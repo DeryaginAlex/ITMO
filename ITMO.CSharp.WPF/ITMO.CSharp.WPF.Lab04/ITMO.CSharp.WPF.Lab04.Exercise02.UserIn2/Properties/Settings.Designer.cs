@@ -9,7 +9,7 @@
 //------------------------------------------------------------------------------
 
 
-namespace WPF_Lab4_Task2_UserIn2.Properties
+namespace UserIn2.Properties
 {
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "11.0.0.0")]

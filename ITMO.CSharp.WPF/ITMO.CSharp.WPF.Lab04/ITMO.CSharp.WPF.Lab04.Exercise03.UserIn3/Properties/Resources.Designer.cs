@@ -9,7 +9,7 @@
 //------------------------------------------------------------------------------
 
 
-namespace WPU_lab4_task3_UserIn3.Properties
+namespace UserIn3.Properties
 {
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
