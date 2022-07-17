@@ -19,7 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSharp.WPF.Lab01.Exerc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSharp.WPF.Lab01.Exercise02.WpfHelloNav", "ITMO.CSharp.WPF.Lab01\ITMO.CSharp.WPF.Lab01.Exercise02.WpfHelloNav\ITMO.CSharp.WPF.Lab01.Exercise02.WpfHelloNav.csproj", "{02AAFBC0-92A0-4B40-833E-85DDA92AC432}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfRoutedEvent_2_1", "ITMO.CSharp.WPF.Lab02\ITMO.CSharp.WPF.Lab02.Exercise01.WpfRoutedEvent_2_1\WpfRoutedEvent_2_1.csproj", "{5251CB3A-B0A5-448D-801B-EE150D958622}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSharp.WPF.Lab02.Exercise01.WpfRoutedEvent_2_1", "ITMO.CSharp.WPF.Lab02\ITMO.CSharp.WPF.Lab02.Exercise01.WpfRoutedEvent_2_1\ITMO.CSharp.WPF.Lab02.Exercise01.WpfRoutedEvent_2_1.csproj", "{5251CB3A-B0A5-448D-801B-EE150D958622}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSharp.WPF.Lab04.Exercise01.UserIn1", "ITMO.CSharp.WPF.Lab04\ITMO.CSharp.WPF.Lab04.Exercise01.UserIn1\WPF-Lab4-UserIn1\ITMO.CSharp.WPF.Lab04.Exercise01.UserIn1.csproj", "{42845670-80EF-4C3F-9A73-A50C6DDE9CDB}"
 EndProject
@@ -28,6 +28,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSharp.WPF.Lab04.Exercise03.UserIn3", "ITMO.CSharp.WPF.Lab04\ITMO.CSharp.WPF.Lab04.Exercise03.UserIn3\WPU-lab4-task3-UserIn3\ITMO.CSharp.WPF.Lab04.Exercise03.UserIn3.csproj", "{C7256B12-987D-4C8E-9237-8A3AF4120783}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSharp.WPF.Lab09.Exercise01.DataBindingDemo", "ITMO.CSharp.WPF.Lab09\DataBindingDemo\ITMO.CSharp.WPF.Lab09.Exercise01.DataBindingDemo.csproj", "{885FAB94-82EF-4904-A1CD-9129715CBAE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSharp.WPF.Lab02.Exercise02.WpfRoutedEvent_2_2", "ITMO.CSharp.WPF.Lab02\ITMO.CSharp.WPF.Lab02.Exercise02.WpfRoutedEvent_2_2\Wpf-Lab2-Task2-RoutedEvent_2_2\ITMO.CSharp.WPF.Lab02.Exercise02.WpfRoutedEvent_2_2.csproj", "{3F64B2AA-03A8-40ED-AF19-1E3EA24CCD76}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +73,10 @@ Global
 		{885FAB94-82EF-4904-A1CD-9129715CBAE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{885FAB94-82EF-4904-A1CD-9129715CBAE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{885FAB94-82EF-4904-A1CD-9129715CBAE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F64B2AA-03A8-40ED-AF19-1E3EA24CCD76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F64B2AA-03A8-40ED-AF19-1E3EA24CCD76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F64B2AA-03A8-40ED-AF19-1E3EA24CCD76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F64B2AA-03A8-40ED-AF19-1E3EA24CCD76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -85,6 +91,7 @@ Global
 		{C23D29CE-6CE6-4192-A24B-EB2B2886E0F5} = {307493E7-8F0E-4536-9508-E49416910C07}
 		{C7256B12-987D-4C8E-9237-8A3AF4120783} = {307493E7-8F0E-4536-9508-E49416910C07}
 		{885FAB94-82EF-4904-A1CD-9129715CBAE5} = {92AF9A57-63E8-4257-A9AD-37A2DD003E4A}
+		{3F64B2AA-03A8-40ED-AF19-1E3EA24CCD76} = {4AC81A0D-E7AD-4D49-9642-1297AEDF642A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {41A70D48-CA7F-445D-8FBA-00557B72FFAA}
