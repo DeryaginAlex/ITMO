@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfHello.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfHello"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="600">
+    <Canvas>
+        <Button x:Name="button" Content="Set Name" HorizontalAlignment="Left" Margin="68,65,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button x:Name="button1" Content="Ret Name" HorizontalAlignment="Left" Margin="68,126,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.24,0.324" Click="Button_Click_1"/>
+        <Label x:Name="label" HorizontalAlignment="Left" Margin="258,126,0,0" VerticalAlignment="Top" Width="237" RenderTransformOrigin="0.27,0.276"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="258,62,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="204" TextChanged="textBox_TextChanged"/>
+        <Button Canvas.Left="126" Canvas.Top="215" Content="Click Me" Height="23" Name="button3" Width="76" Click="button3_Click" />
+        <TextBox Width="170" Canvas.Left="206" Canvas.Top="217" Name="myTextBox" />
+
+    </Canvas>
+</Window>
