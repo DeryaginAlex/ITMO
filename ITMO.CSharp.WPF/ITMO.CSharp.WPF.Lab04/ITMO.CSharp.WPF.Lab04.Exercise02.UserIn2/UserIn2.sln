@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-Lab4-Task2-UserIn2", "WPF-Lab4-Task2-UserIn2\WPF-Lab4-Task2-UserIn2.csproj", "{C23D29CE-6CE6-4192-A24B-EB2B2886E0F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C23D29CE-6CE6-4192-A24B-EB2B2886E0F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C23D29CE-6CE6-4192-A24B-EB2B2886E0F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C23D29CE-6CE6-4192-A24B-EB2B2886E0F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C23D29CE-6CE6-4192-A24B-EB2B2886E0F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {041320F9-0D97-4F05-9D11-9562FC2D32B7}
+	EndGlobalSection
+EndGlobal
